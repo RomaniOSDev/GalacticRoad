@@ -7,9 +7,19 @@
 
 import SwiftUI
 
+// MARK: - Main View
 struct FindMatchView: View {
+    @State private var selectedLevel: MatchLevel? = nil
+    let levelData = MatchLevelData.shared
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Group {
+            if let level = selectedLevel {
+                MatchGameView(level: level, selectedLevel: $selectedLevel)
+            } else {
+                LevelSelectionView(levels: levelData.levels, selectedLevel: $selectedLevel)
+            }
+        }
     }
 }
 
