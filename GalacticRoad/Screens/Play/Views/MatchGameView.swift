@@ -96,7 +96,7 @@ struct MatchGameView: View {
                         .foregroundColor(.white)
                         .font(.system(size: 20))
                 } else {
-                    ScrollView {
+                   
                         LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 10), count: level.columns), spacing: 10) {
                             ForEach(viewModel.cards) { card in
                                 Button {
@@ -117,12 +117,13 @@ struct MatchGameView: View {
                         }
                         .padding(.horizontal, 20)
                         .id(viewModel.cards.map { "\($0.id)-\($0.isFlipped)-\($0.isMatched)" }.joined(separator: "-"))
-                    }
+                    
                 }
                 
                 Spacer()
             }
         }
+        .navigationBarBackButtonHidden()
         .sheet(isPresented: $viewModel.showWinScreen) {
             WinMatchView(
                 level: level,
