@@ -1,0 +1,6 @@
+framework module Pods_GalacticRoad {
+  umbrella header "Pods-GalacticRoad-umbrella.h"
+
+  export *
+  module * { export * }
+}
