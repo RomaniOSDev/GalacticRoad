@@ -288,6 +288,15 @@ struct QuizContentView: View {
             selectedAnswer = nil
         } else {
             // Quiz completed
+            // Отслеживание достижений
+            AchievementManager.shared.incrementTotalGamesPlayed()
+            // Проверяем, завершен ли квиз с 100% (все вопросы правильные)
+            let percentage = Int((Double(score) / Double(topic.questions.count)) * 100)
+            if percentage == 100 {
+                AchievementManager.shared.setGalacticQuizCompleted(true)
+            }
+            // Сохраняем статистику
+            GameStatisticsManager.shared.addGalacticQuizResult(score: score, totalQuestions: topic.questions.count)
             showResult = true
         }
     }

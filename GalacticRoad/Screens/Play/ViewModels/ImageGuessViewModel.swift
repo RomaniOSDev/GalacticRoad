@@ -84,6 +84,11 @@ class ImageGuessViewModel: ObservableObject {
         } else {
             // Если это был последний вопрос, завершаем квиз
             isQuizCompleted = true
+            // Отслеживание достижений
+            AchievementManager.shared.setImageQuizCompleted(true)
+            AchievementManager.shared.incrementTotalGamesPlayed()
+            // Сохраняем статистику
+            GameStatisticsManager.shared.incrementImageQuizCompleted()
         }
     }
     

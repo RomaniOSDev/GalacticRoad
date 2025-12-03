@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ResultView: View {
     @Environment(\.dismiss) var dismiss
-    @State private var resultQuiz = 0
-    @State private var resultImage = 0
-    @State private var resultFind = 0
+    @StateObject private var statisticsManager = ObservableStatisticsManager()
+    
     var body: some View {
         ZStack{
             Image(.mainFon)
@@ -41,16 +41,55 @@ struct ResultView: View {
                 }
                 Spacer()
                 
-                VStack{
-                    ResultRow(image: .galacticQuiz, score: resultQuiz)
-                    ResultRow(image: .imagegues, score: resultImage)
-                    ResultRow(image: .findMatch, score: resultFind)
+                ScrollView {
+                    VStack(spacing: 20) {
+                        // Galactic Quiz - показываем количество пройденных квизов и лучший результат
+                        ResultRow(
+                            image: .galacticQuiz,
+                            score: statisticsManager.galacticQuizCompleted,
+                            count: max(statisticsManager.galacticQuizBestScore, 5) // Минимум 5 (количество вопросов в квизе)
+                        )
+                        
+                        // Image Quiz - показываем количество пройденных квизов
+                        ResultRow(
+                            image: .imagegues,
+                            score: statisticsManager.imageQuizCompleted,
+                            count: 10
+                        )
+                        
+                        // Find Match - показываем количество пройденных уровней
+                        ResultRow(
+                            image: .findMatch,
+                            score: statisticsManager.matchLevelsCompleted,
+                            count: 10
+                        )
+                    }
+                    .padding(.vertical, 20)
                 }
                 Spacer()
             }
             .padding()
             .navigationBarBackButtonHidden()
+            .onAppear {
+                statisticsManager.refresh()
+            }
         }
+    }
+}
+
+// Observable wrapper для GameStatisticsManager
+class ObservableStatisticsManager: ObservableObject {
+    @Published var galacticQuizCompleted: Int = 0
+    @Published var galacticQuizBestScore: Int = 0
+    @Published var imageQuizCompleted: Int = 0
+    @Published var matchLevelsCompleted: Int = 0
+    
+    func refresh() {
+        let stats = GameStatisticsManager.shared
+        galacticQuizCompleted = stats.getGalacticQuizCompletedCount()
+        galacticQuizBestScore = stats.getGalacticQuizBestScore()
+        imageQuizCompleted = stats.getImageQuizCompletedCount()
+        matchLevelsCompleted = stats.getMatchLevelsCompletedCount()
     }
 }
 

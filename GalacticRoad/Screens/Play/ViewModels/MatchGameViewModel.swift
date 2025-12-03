@@ -178,6 +178,20 @@ class MatchGameViewModel: ObservableObject {
                 stopTimer()
                 // Разблокируем следующий уровень
                 ProgressManager.shared.unlockNextLevel(after: level.id)
+                
+                // Отслеживание достижений
+                let achievementManager = AchievementManager.shared
+                achievementManager.incrementMatchLevelsCompleted()
+                achievementManager.incrementTotalGamesPlayed()
+                
+                // Проверяем специальные достижения
+                let mistakes = moves - level.pairs // Примерное количество ошибок
+                achievementManager.checkPerfectMatch(levelId: level.id, mistakes: mistakes)
+                achievementManager.checkSpeedRunner(time: elapsedTime)
+                
+                // Сохраняем статистику
+                GameStatisticsManager.shared.addMatchLevelResult(levelId: level.id, time: elapsedTime, moves: moves)
+                
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                     self.showWinScreen = true
                 }

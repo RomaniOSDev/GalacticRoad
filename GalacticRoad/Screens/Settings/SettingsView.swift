@@ -9,7 +9,7 @@ import SwiftUI
 import StoreKit
 
 struct SettingsView: View {
-    @State private var urlPrivacy = ""
+    @State private var urlPrivacy = "https://www.termsfeed.com/live/11a73335-b8b3-405d-b0a6-2b3de262298f"
     @Environment(\.dismiss) var dismiss
     var body: some View {
         ZStack{

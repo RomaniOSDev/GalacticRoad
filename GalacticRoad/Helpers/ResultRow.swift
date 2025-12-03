@@ -11,6 +11,7 @@ struct ResultRow: View {
     
     var image: ImageResource
     var score: Int
+    var count: Int
     
     var body: some View {
         HStack(spacing: 20) {
@@ -22,7 +23,7 @@ struct ResultRow: View {
                 Image(.backToResult)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                Text("10/\(score)")
+                Text("\(score)/\(count)")
                     .foregroundStyle(.white)
                     .font(.system(size: 38, weight: .bold, design: .monospaced))
             }
@@ -31,5 +32,5 @@ struct ResultRow: View {
 }
 
 #Preview {
-    ResultRow(image: .galacticQuiz, score: 5)
+    ResultRow(image: .galacticQuiz, score: 5, count: 10)
 }
