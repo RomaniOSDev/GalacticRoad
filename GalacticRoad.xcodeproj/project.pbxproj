@@ -6,6 +6,10 @@
 	objectVersion = 70;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		749169212EE0C41000D82437 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 749169202EE0C41000D82437 /* FirebaseDatabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0566C0D701628B62545116EF /* Pods-GalacticRoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GalacticRoad.release.xcconfig"; path = "Target Support Files/Pods-GalacticRoad/Pods-GalacticRoad.release.xcconfig"; sourceTree = "<group>"; };
 		552D723A2551C4E50CD4AE5D /* Pods_GalacticRoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GalacticRoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749169212EE0C41000D82437 /* FirebaseDatabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +126,9 @@
 				Base,
 			);
 			mainGroup = 740F2C012EDD9E5100376232;
+			packageReferences = (
+				7491691F2EE0C41000D82437 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 740F2C0B2EDD9E5100376232 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -391,6 +399,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7491691F2EE0C41000D82437 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		749169202EE0C41000D82437 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7491691F2EE0C41000D82437 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 740F2C022EDD9E5100376232 /* Project object */;
 }

@@ -10,6 +10,7 @@ import UIKit
 import WebKit
 
 class WebviewVC: UIViewController, WKNavigationDelegate  {
+    
         
     func obtainCookies() {
         let standartStorage: UserDefaults = UserDefaults.standard
