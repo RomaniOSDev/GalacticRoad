@@ -3,10 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7411D1462EE178D90012F71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7411D13B2EE178D90012F71D /* Assets.xcassets */; };
+		7411D1472EE178D90012F71D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7411D13D2EE178D90012F71D /* GoogleService-Info.plist */; };
+		7411D1492EE178D90012F71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7411D1402EE178D90012F71D /* LaunchScreen.storyboard */; };
+		7411D14A2EE178D90012F71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7411D1422EE178D90012F71D /* Main.storyboard */; };
+		7411D14B2EE178D90012F71D /* ResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1122EE178D90012F71D /* ResultRow.swift */; };
+		7411D14C2EE178D90012F71D /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1142EE178D90012F71D /* Achievement.swift */; };
+		7411D14D2EE178D90012F71D /* AchievementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1152EE178D90012F71D /* AchievementManager.swift */; };
+		7411D14E2EE178D90012F71D /* AchivmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1172EE178D90012F71D /* AchivmentView.swift */; };
+		7411D14F2EE178D90012F71D /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1192EE178D90012F71D /* CheckLink.swift */; };
+		7411D1502EE178D90012F71D /* FireBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D11A2EE178D90012F71D /* FireBaseManager.swift */; };
+		7411D1512EE178D90012F71D /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D11B2EE178D90012F71D /* InternetViewController.swift */; };
+		7411D1522EE178D90012F71D /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D11C2EE178D90012F71D /* LoaderViewController.swift */; };
+		7411D1532EE178D90012F71D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D11E2EE178D90012F71D /* MainView.swift */; };
+		7411D1542EE178D90012F71D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1202EE178D90012F71D /* Card.swift */; };
+		7411D1552EE178D90012F71D /* ImagesCrads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1212EE178D90012F71D /* ImagesCrads.swift */; };
+		7411D1562EE178D90012F71D /* MatchLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1222EE178D90012F71D /* MatchLevel.swift */; };
+		7411D1572EE178D90012F71D /* MatchLevelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1232EE178D90012F71D /* MatchLevelData.swift */; };
+		7411D1582EE178D90012F71D /* ProgressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1242EE178D90012F71D /* ProgressManager.swift */; };
+		7411D1592EE178D90012F71D /* ImageGuessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1262EE178D90012F71D /* ImageGuessViewModel.swift */; };
+		7411D15A2EE178D90012F71D /* MatchGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1272EE178D90012F71D /* MatchGameViewModel.swift */; };
+		7411D15B2EE178D90012F71D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1292EE178D90012F71D /* CardView.swift */; };
+		7411D15C2EE178D90012F71D /* LevelSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D12A2EE178D90012F71D /* LevelSelectionView.swift */; };
+		7411D15D2EE178D90012F71D /* MatchGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D12B2EE178D90012F71D /* MatchGameView.swift */; };
+		7411D15E2EE178D90012F71D /* WinMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D12C2EE178D90012F71D /* WinMatchView.swift */; };
+		7411D15F2EE178D90012F71D /* FindMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D12E2EE178D90012F71D /* FindMatchView.swift */; };
+		7411D1602EE178D90012F71D /* GalacticQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D12F2EE178D90012F71D /* GalacticQuizView.swift */; };
+		7411D1612EE178D90012F71D /* ImageGuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1302EE178D90012F71D /* ImageGuessView.swift */; };
+		7411D1622EE178D90012F71D /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1312EE178D90012F71D /* PlayView.swift */; };
+		7411D1632EE178D90012F71D /* GameStatisticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1332EE178D90012F71D /* GameStatisticsManager.swift */; };
+		7411D1642EE178D90012F71D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1352EE178D90012F71D /* InfoView.swift */; };
+		7411D1652EE178D90012F71D /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1362EE178D90012F71D /* ResultView.swift */; };
+		7411D1662EE178D90012F71D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1372EE178D90012F71D /* SettingsView.swift */; };
+		7411D1672EE178D90012F71D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D13A2EE178D90012F71D /* AppDelegate.swift */; };
+		7411D1682EE178D90012F71D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D13C2EE178D90012F71D /* ContentView.swift */; };
+		7411D1692EE178D90012F71D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1432EE178D90012F71D /* SceneDelegate.swift */; };
+		7411D16A2EE178D90012F71D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1442EE178D90012F71D /* ViewController.swift */; };
 		749169212EE0C41000D82437 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 749169202EE0C41000D82437 /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
@@ -15,21 +51,44 @@
 		552D723A2551C4E50CD4AE5D /* Pods_GalacticRoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GalacticRoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCCED353D666512E6760CE8 /* Pods-GalacticRoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GalacticRoad.debug.xcconfig"; path = "Target Support Files/Pods-GalacticRoad/Pods-GalacticRoad.debug.xcconfig"; sourceTree = "<group>"; };
 		740F2C0A2EDD9E5100376232 /* GalacticRoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalacticRoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7411D1122EE178D90012F71D /* ResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRow.swift; sourceTree = "<group>"; };
+		7411D1142EE178D90012F71D /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		7411D1152EE178D90012F71D /* AchievementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementManager.swift; sourceTree = "<group>"; };
+		7411D1172EE178D90012F71D /* AchivmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivmentView.swift; sourceTree = "<group>"; };
+		7411D1192EE178D90012F71D /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7411D11A2EE178D90012F71D /* FireBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseManager.swift; sourceTree = "<group>"; };
+		7411D11B2EE178D90012F71D /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7411D11C2EE178D90012F71D /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		7411D11E2EE178D90012F71D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7411D1202EE178D90012F71D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		7411D1212EE178D90012F71D /* ImagesCrads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCrads.swift; sourceTree = "<group>"; };
+		7411D1222EE178D90012F71D /* MatchLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchLevel.swift; sourceTree = "<group>"; };
+		7411D1232EE178D90012F71D /* MatchLevelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchLevelData.swift; sourceTree = "<group>"; };
+		7411D1242EE178D90012F71D /* ProgressManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressManager.swift; sourceTree = "<group>"; };
+		7411D1262EE178D90012F71D /* ImageGuessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGuessViewModel.swift; sourceTree = "<group>"; };
+		7411D1272EE178D90012F71D /* MatchGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGameViewModel.swift; sourceTree = "<group>"; };
+		7411D1292EE178D90012F71D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7411D12A2EE178D90012F71D /* LevelSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectionView.swift; sourceTree = "<group>"; };
+		7411D12B2EE178D90012F71D /* MatchGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGameView.swift; sourceTree = "<group>"; };
+		7411D12C2EE178D90012F71D /* WinMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinMatchView.swift; sourceTree = "<group>"; };
+		7411D12E2EE178D90012F71D /* FindMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMatchView.swift; sourceTree = "<group>"; };
+		7411D12F2EE178D90012F71D /* GalacticQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalacticQuizView.swift; sourceTree = "<group>"; };
+		7411D1302EE178D90012F71D /* ImageGuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGuessView.swift; sourceTree = "<group>"; };
+		7411D1312EE178D90012F71D /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		7411D1332EE178D90012F71D /* GameStatisticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStatisticsManager.swift; sourceTree = "<group>"; };
+		7411D1352EE178D90012F71D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		7411D1362EE178D90012F71D /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		7411D1372EE178D90012F71D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7411D13A2EE178D90012F71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7411D13B2EE178D90012F71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7411D13C2EE178D90012F71D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7411D13D2EE178D90012F71D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7411D13E2EE178D90012F71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7411D13F2EE178D90012F71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7411D1412EE178D90012F71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7411D1432EE178D90012F71D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7411D1442EE178D90012F71D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		740F2C442EDD9E8F00376232 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 740F2C092EDD9E5100376232 /* GalacticRoad */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		740F2C3C2EDD9E8F00376232 /* GalacticRoad */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (740F2C442EDD9E8F00376232 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = GalacticRoad; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		740F2C072EDD9E5100376232 /* Frameworks */ = {
@@ -63,7 +122,7 @@
 		740F2C012EDD9E5100376232 = {
 			isa = PBXGroup;
 			children = (
-				740F2C3C2EDD9E8F00376232 /* GalacticRoad */,
+				7411D1452EE178D90012F71D /* GalacticRoad */,
 				740F2C0B2EDD9E5100376232 /* Products */,
 				6C9C064895201ED62404DAD9 /* Pods */,
 				6B7B8D75C56704DB95A99E49 /* Frameworks */,
@@ -76,6 +135,146 @@
 				740F2C0A2EDD9E5100376232 /* GalacticRoad.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7411D1132EE178D90012F71D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1122EE178D90012F71D /* ResultRow.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7411D1162EE178D90012F71D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1142EE178D90012F71D /* Achievement.swift */,
+				7411D1152EE178D90012F71D /* AchievementManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7411D1182EE178D90012F71D /* Achivment */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1162EE178D90012F71D /* Models */,
+				7411D1172EE178D90012F71D /* AchivmentView.swift */,
+			);
+			path = Achivment;
+			sourceTree = "<group>";
+		};
+		7411D11D2EE178D90012F71D /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1192EE178D90012F71D /* CheckLink.swift */,
+				7411D11A2EE178D90012F71D /* FireBaseManager.swift */,
+				7411D11B2EE178D90012F71D /* InternetViewController.swift */,
+				7411D11C2EE178D90012F71D /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		7411D11F2EE178D90012F71D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7411D11E2EE178D90012F71D /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7411D1252EE178D90012F71D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1202EE178D90012F71D /* Card.swift */,
+				7411D1212EE178D90012F71D /* ImagesCrads.swift */,
+				7411D1222EE178D90012F71D /* MatchLevel.swift */,
+				7411D1232EE178D90012F71D /* MatchLevelData.swift */,
+				7411D1242EE178D90012F71D /* ProgressManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7411D1282EE178D90012F71D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1262EE178D90012F71D /* ImageGuessViewModel.swift */,
+				7411D1272EE178D90012F71D /* MatchGameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7411D12D2EE178D90012F71D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1292EE178D90012F71D /* CardView.swift */,
+				7411D12A2EE178D90012F71D /* LevelSelectionView.swift */,
+				7411D12B2EE178D90012F71D /* MatchGameView.swift */,
+				7411D12C2EE178D90012F71D /* WinMatchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7411D1322EE178D90012F71D /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1252EE178D90012F71D /* Models */,
+				7411D1282EE178D90012F71D /* ViewModels */,
+				7411D12D2EE178D90012F71D /* Views */,
+				7411D12E2EE178D90012F71D /* FindMatchView.swift */,
+				7411D12F2EE178D90012F71D /* GalacticQuizView.swift */,
+				7411D1302EE178D90012F71D /* ImageGuessView.swift */,
+				7411D1312EE178D90012F71D /* PlayView.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		7411D1342EE178D90012F71D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1332EE178D90012F71D /* GameStatisticsManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7411D1382EE178D90012F71D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1342EE178D90012F71D /* Models */,
+				7411D1352EE178D90012F71D /* InfoView.swift */,
+				7411D1362EE178D90012F71D /* ResultView.swift */,
+				7411D1372EE178D90012F71D /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7411D1392EE178D90012F71D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1182EE178D90012F71D /* Achivment */,
+				7411D11D2EE178D90012F71D /* LoadingView */,
+				7411D11F2EE178D90012F71D /* Main */,
+				7411D1322EE178D90012F71D /* Play */,
+				7411D1382EE178D90012F71D /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7411D1452EE178D90012F71D /* GalacticRoad */ = {
+			isa = PBXGroup;
+			children = (
+				7411D1132EE178D90012F71D /* Helpers */,
+				7411D1392EE178D90012F71D /* Screens */,
+				7411D13A2EE178D90012F71D /* AppDelegate.swift */,
+				7411D13B2EE178D90012F71D /* Assets.xcassets */,
+				7411D13C2EE178D90012F71D /* ContentView.swift */,
+				7411D13D2EE178D90012F71D /* GoogleService-Info.plist */,
+				7411D13E2EE178D90012F71D /* Info.plist */,
+				7411D1402EE178D90012F71D /* LaunchScreen.storyboard */,
+				7411D1422EE178D90012F71D /* Main.storyboard */,
+				7411D1432EE178D90012F71D /* SceneDelegate.swift */,
+				7411D1442EE178D90012F71D /* ViewController.swift */,
+			);
+			path = GalacticRoad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,9 +292,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				740F2C3C2EDD9E8F00376232 /* GalacticRoad */,
 			);
 			name = GalacticRoad;
 			productName = GalacticRoad;
@@ -143,6 +339,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7411D1462EE178D90012F71D /* Assets.xcassets in Resources */,
+				7411D1472EE178D90012F71D /* GoogleService-Info.plist in Resources */,
+				7411D1492EE178D90012F71D /* LaunchScreen.storyboard in Resources */,
+				7411D14A2EE178D90012F71D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,10 +378,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7411D14B2EE178D90012F71D /* ResultRow.swift in Sources */,
+				7411D14C2EE178D90012F71D /* Achievement.swift in Sources */,
+				7411D14D2EE178D90012F71D /* AchievementManager.swift in Sources */,
+				7411D14E2EE178D90012F71D /* AchivmentView.swift in Sources */,
+				7411D14F2EE178D90012F71D /* CheckLink.swift in Sources */,
+				7411D1502EE178D90012F71D /* FireBaseManager.swift in Sources */,
+				7411D1512EE178D90012F71D /* InternetViewController.swift in Sources */,
+				7411D1522EE178D90012F71D /* LoaderViewController.swift in Sources */,
+				7411D1532EE178D90012F71D /* MainView.swift in Sources */,
+				7411D1542EE178D90012F71D /* Card.swift in Sources */,
+				7411D1552EE178D90012F71D /* ImagesCrads.swift in Sources */,
+				7411D1562EE178D90012F71D /* MatchLevel.swift in Sources */,
+				7411D1572EE178D90012F71D /* MatchLevelData.swift in Sources */,
+				7411D1582EE178D90012F71D /* ProgressManager.swift in Sources */,
+				7411D1592EE178D90012F71D /* ImageGuessViewModel.swift in Sources */,
+				7411D15A2EE178D90012F71D /* MatchGameViewModel.swift in Sources */,
+				7411D15B2EE178D90012F71D /* CardView.swift in Sources */,
+				7411D15C2EE178D90012F71D /* LevelSelectionView.swift in Sources */,
+				7411D15D2EE178D90012F71D /* MatchGameView.swift in Sources */,
+				7411D15E2EE178D90012F71D /* WinMatchView.swift in Sources */,
+				7411D15F2EE178D90012F71D /* FindMatchView.swift in Sources */,
+				7411D1602EE178D90012F71D /* GalacticQuizView.swift in Sources */,
+				7411D1612EE178D90012F71D /* ImageGuessView.swift in Sources */,
+				7411D1622EE178D90012F71D /* PlayView.swift in Sources */,
+				7411D1632EE178D90012F71D /* GameStatisticsManager.swift in Sources */,
+				7411D1642EE178D90012F71D /* InfoView.swift in Sources */,
+				7411D1652EE178D90012F71D /* ResultView.swift in Sources */,
+				7411D1662EE178D90012F71D /* SettingsView.swift in Sources */,
+				7411D1672EE178D90012F71D /* AppDelegate.swift in Sources */,
+				7411D1682EE178D90012F71D /* ContentView.swift in Sources */,
+				7411D1692EE178D90012F71D /* SceneDelegate.swift in Sources */,
+				7411D16A2EE178D90012F71D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7411D1402EE178D90012F71D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7411D13F2EE178D90012F71D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7411D1422EE178D90012F71D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7411D1412EE178D90012F71D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		740F2C1E2EDD9E5200376232 /* Debug */ = {
