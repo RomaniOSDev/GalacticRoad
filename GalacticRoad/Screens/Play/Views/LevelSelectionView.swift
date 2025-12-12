@@ -98,3 +98,4 @@ class ObservableProgressManager: ObservableObject {
         unlockedLevels = ProgressManager.shared.getUnlockedLevels()
     }
 }
+

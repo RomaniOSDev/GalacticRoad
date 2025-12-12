@@ -97,3 +97,4 @@ class ImageGuessViewModel: ObservableObject {
         isQuizCompleted = false
     }
 }
+

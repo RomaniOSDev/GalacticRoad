@@ -29,3 +29,4 @@ class MatchLevelData {
         .card11, .card12, .card13, .card14, .card15
     ]
 }
+

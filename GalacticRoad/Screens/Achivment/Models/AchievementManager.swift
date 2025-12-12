@@ -175,3 +175,4 @@ class AchievementManager: ObservableObject {
         }
     }
 }
+

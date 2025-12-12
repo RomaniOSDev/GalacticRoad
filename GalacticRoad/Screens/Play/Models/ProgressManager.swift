@@ -45,3 +45,4 @@ class ProgressManager {
         unlockLevel(1) // Первый уровень всегда открыт
     }
 }
+

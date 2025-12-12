@@ -24,3 +24,4 @@ struct Card: Identifiable, Equatable {
         lhs.imageName == rhs.imageName
     }
 }
+

@@ -8,17 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7411D1462EE178D90012F71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7411D13B2EE178D90012F71D /* Assets.xcassets */; };
-		7411D1472EE178D90012F71D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7411D13D2EE178D90012F71D /* GoogleService-Info.plist */; };
 		7411D1492EE178D90012F71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7411D1402EE178D90012F71D /* LaunchScreen.storyboard */; };
 		7411D14A2EE178D90012F71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7411D1422EE178D90012F71D /* Main.storyboard */; };
 		7411D14B2EE178D90012F71D /* ResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1122EE178D90012F71D /* ResultRow.swift */; };
 		7411D14C2EE178D90012F71D /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1142EE178D90012F71D /* Achievement.swift */; };
 		7411D14D2EE178D90012F71D /* AchievementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1152EE178D90012F71D /* AchievementManager.swift */; };
 		7411D14E2EE178D90012F71D /* AchivmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1172EE178D90012F71D /* AchivmentView.swift */; };
-		7411D14F2EE178D90012F71D /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1192EE178D90012F71D /* CheckLink.swift */; };
-		7411D1502EE178D90012F71D /* FireBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D11A2EE178D90012F71D /* FireBaseManager.swift */; };
-		7411D1512EE178D90012F71D /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D11B2EE178D90012F71D /* InternetViewController.swift */; };
-		7411D1522EE178D90012F71D /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D11C2EE178D90012F71D /* LoaderViewController.swift */; };
 		7411D1532EE178D90012F71D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D11E2EE178D90012F71D /* MainView.swift */; };
 		7411D1542EE178D90012F71D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1202EE178D90012F71D /* Card.swift */; };
 		7411D1552EE178D90012F71D /* ImagesCrads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1212EE178D90012F71D /* ImagesCrads.swift */; };
@@ -43,7 +38,6 @@
 		7411D1682EE178D90012F71D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D13C2EE178D90012F71D /* ContentView.swift */; };
 		7411D1692EE178D90012F71D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1432EE178D90012F71D /* SceneDelegate.swift */; };
 		7411D16A2EE178D90012F71D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411D1442EE178D90012F71D /* ViewController.swift */; };
-		749169212EE0C41000D82437 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 749169202EE0C41000D82437 /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +49,6 @@
 		7411D1142EE178D90012F71D /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
 		7411D1152EE178D90012F71D /* AchievementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementManager.swift; sourceTree = "<group>"; };
 		7411D1172EE178D90012F71D /* AchivmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivmentView.swift; sourceTree = "<group>"; };
-		7411D1192EE178D90012F71D /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
-		7411D11A2EE178D90012F71D /* FireBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseManager.swift; sourceTree = "<group>"; };
-		7411D11B2EE178D90012F71D /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
-		7411D11C2EE178D90012F71D /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		7411D11E2EE178D90012F71D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7411D1202EE178D90012F71D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		7411D1212EE178D90012F71D /* ImagesCrads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCrads.swift; sourceTree = "<group>"; };
@@ -82,7 +72,6 @@
 		7411D13A2EE178D90012F71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7411D13B2EE178D90012F71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7411D13C2EE178D90012F71D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7411D13D2EE178D90012F71D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7411D13E2EE178D90012F71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7411D13F2EE178D90012F71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7411D1412EE178D90012F71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				749169212EE0C41000D82437 /* FirebaseDatabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,17 +149,6 @@
 				7411D1172EE178D90012F71D /* AchivmentView.swift */,
 			);
 			path = Achivment;
-			sourceTree = "<group>";
-		};
-		7411D11D2EE178D90012F71D /* LoadingView */ = {
-			isa = PBXGroup;
-			children = (
-				7411D1192EE178D90012F71D /* CheckLink.swift */,
-				7411D11A2EE178D90012F71D /* FireBaseManager.swift */,
-				7411D11B2EE178D90012F71D /* InternetViewController.swift */,
-				7411D11C2EE178D90012F71D /* LoaderViewController.swift */,
-			);
-			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		7411D11F2EE178D90012F71D /* Main */ = {
@@ -251,7 +228,6 @@
 			isa = PBXGroup;
 			children = (
 				7411D1182EE178D90012F71D /* Achivment */,
-				7411D11D2EE178D90012F71D /* LoadingView */,
 				7411D11F2EE178D90012F71D /* Main */,
 				7411D1322EE178D90012F71D /* Play */,
 				7411D1382EE178D90012F71D /* Settings */,
@@ -267,7 +243,6 @@
 				7411D13A2EE178D90012F71D /* AppDelegate.swift */,
 				7411D13B2EE178D90012F71D /* Assets.xcassets */,
 				7411D13C2EE178D90012F71D /* ContentView.swift */,
-				7411D13D2EE178D90012F71D /* GoogleService-Info.plist */,
 				7411D13E2EE178D90012F71D /* Info.plist */,
 				7411D1402EE178D90012F71D /* LaunchScreen.storyboard */,
 				7411D1422EE178D90012F71D /* Main.storyboard */,
@@ -323,7 +298,6 @@
 			);
 			mainGroup = 740F2C012EDD9E5100376232;
 			packageReferences = (
-				7491691F2EE0C41000D82437 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 740F2C0B2EDD9E5100376232 /* Products */;
 			projectDirPath = "";
@@ -340,7 +314,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7411D1462EE178D90012F71D /* Assets.xcassets in Resources */,
-				7411D1472EE178D90012F71D /* GoogleService-Info.plist in Resources */,
 				7411D1492EE178D90012F71D /* LaunchScreen.storyboard in Resources */,
 				7411D14A2EE178D90012F71D /* Main.storyboard in Resources */,
 			);
@@ -382,10 +355,6 @@
 				7411D14C2EE178D90012F71D /* Achievement.swift in Sources */,
 				7411D14D2EE178D90012F71D /* AchievementManager.swift in Sources */,
 				7411D14E2EE178D90012F71D /* AchivmentView.swift in Sources */,
-				7411D14F2EE178D90012F71D /* CheckLink.swift in Sources */,
-				7411D1502EE178D90012F71D /* FireBaseManager.swift in Sources */,
-				7411D1512EE178D90012F71D /* InternetViewController.swift in Sources */,
-				7411D1522EE178D90012F71D /* LoaderViewController.swift in Sources */,
 				7411D1532EE178D90012F71D /* MainView.swift in Sources */,
 				7411D1542EE178D90012F71D /* Card.swift in Sources */,
 				7411D1552EE178D90012F71D /* ImagesCrads.swift in Sources */,
@@ -442,7 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GalacticRoad/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -479,7 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GalacticRoad/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -650,25 +619,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		7491691F2EE0C41000D82437 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 12.6.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		749169202EE0C41000D82437 /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7491691F2EE0C41000D82437 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 740F2C022EDD9E5100376232 /* Project object */;
 }
